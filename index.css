@@ -1,8 +1,62 @@
 body {
     margin: 0;
+    background-color: rgba(27, 36, 74, 1);
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.teams-title{
+    width: 149;
+    height: 36;
+    top: 68px;
+    left: 85px;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.score-bgd {
+    width: 155;
+    height: 120;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px;
+    background: #080001;
+    
+}
+
+#count-home,
+#count-guest {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.points{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plus{
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color:  rgba(27, 36, 74, 1);
 }
